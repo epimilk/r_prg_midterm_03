@@ -1,0 +1,23 @@
+# practice 1
+ggplot(women, aes(x = height, y = weight)) +
+geom_point() +
+ggtitle("super sexy") +
+xlab("height") + 
+ylab("weight")
+
+# practice 2
+ggplot(women, aes(x = height, y = weight)) + 
+geom_point() +
+geom_line()
+
+# practice 3
+ggplot(faithful, aes(x = eruptions)) +
+geom_histogram()
+
+# practice 4
+ggplot(faithful, aes(x = 1, y = waiting)) +
+geom_boxplot()
+
+# practice 5
+ggplot(ToothGrowth, aes(len)) + 
+geom_histogram(binwidth = 1)
